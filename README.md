@@ -120,3 +120,17 @@
           <th>24.7</th>
         </tr>
 </table>
+
+***
+
+## User Guide
+
+### **MAN** includes the plug-and-play modules(Mix Attention) and backbone(MANet).
+
+**Note**: 
+
+1. The sub-folder named "Big Version" in Modules play the role of one individual layer.  
+
+2. The sub-folder named "Tiny Version" in Modules play the role of the module in the network's bottleneck.
+
+### **CAT** includes the files of CAT-YOLO.
