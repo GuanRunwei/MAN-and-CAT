@@ -17,13 +17,13 @@
         </tr>
         <tr>
             <th>ResNet-101 + Mix Attention</th>
-            <th>49.21</th>
+            <th>50.07</th>
             <th>6.17</th>
         </tr>
         <tr>
             <th>WRN-18 + Mix Attention</th>
-            <th>26.03</th>
-            <th>4.92</th>
+            <th>27.11</th>
+            <th>4.87</th>
         </tr>
 </table>
     
@@ -38,12 +38,12 @@
         </tr>
         <tr>
             <th>ResNet-101 + Mix Attention</th>
-            <th>49.21</th>
+            <th>50.07</th>
             <th>23.19</th>
         </tr>
         <tr>
             <th>WRN-18 + Mix Attention</th>
-            <th>26.03</th>
+            <th>27.11</th>
             <th>19.11</th>
         </tr>
 </table>
