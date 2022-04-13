@@ -48,6 +48,7 @@
         </tr>
 </table>
 
+***
 
 ### MANet on CIFAR-10
 
@@ -100,6 +101,7 @@
         </tr>
 </table>
 
+***
 
 ### CAT-YOLO on COCO 2017
 <table>
