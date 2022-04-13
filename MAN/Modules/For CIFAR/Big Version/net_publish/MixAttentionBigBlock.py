@@ -286,5 +286,5 @@ class MixAttentionBlock(nn.Module):
         return x
 
 
-mix_tiny = MixAttentionBlock(in_channels=3, out_channels=256, input_shape=[224, 224]).to(device)
-print(torchsummary.summary(mix_tiny, input_size=(3, 224, 224)))
+mix = MixAttentionBlock(in_channels=3, out_channels=256, input_shape=[224, 224]).to(device)
+print(torchsummary.summary(mix, input_size=(3, 224, 224)))
