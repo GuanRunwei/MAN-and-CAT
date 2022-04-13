@@ -1,4 +1,7 @@
 # MAN and CAT: Mix Attention to NN and Concatenate Attention to YOLO
+
+Note: We are still preparing and organizing different files for users to read and debug easily, which would be completed before the end of 2022. 
+
 <div align="center">
   <p>===This is the official page of Mix Attention, MANet and CAT-YOLO===</p>
   <img src="https://github.com/GuanRunwei/MAN-and-CAT/blob/main/logo1.png" width=150 alt="CAT-YOLO">
@@ -127,10 +130,12 @@
 
 ### **MAN** includes the plug-and-play modules(Mix Attention) and backbone(MANet).
 
-**Note**: 
+**Note**:
 
-1. The sub-folder named "Big Version" in Modules play the role of one individual layer.  
+1. We divide the modules and backbones for [CIFAR](https://github.com/GuanRunwei/MAN-and-CAT/tree/main/MAN/Modules/For%20CIFAR) and [ImageNet](https://github.com/GuanRunwei/MAN-and-CAT/tree/main/MAN/Modules/For%20ImageNet_Like) respectively. 
 
-2. The sub-folder named "Tiny Version" in Modules play the role of the module in the network's bottleneck.
+2. The sub-folder named "Big Version" in [Modules](https://github.com/GuanRunwei/MAN-and-CAT/tree/main/MAN/Modules) play the role of one individual layer.  
+
+3. The sub-folder named "Tiny Version" in [Modules](https://github.com/GuanRunwei/MAN-and-CAT/tree/main/MAN/Modules) play the role of the enhance module in the network's bottleneck.
 
 ### **CAT** includes the files of CAT-YOLO.
