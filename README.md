@@ -116,11 +116,18 @@ Note: We are still preparing and organizing different files for users to read an
             <th>AP</th>
         </tr>
         <tr>
-            <th>CAT-YOLO</th>
+            <th>CAT-YOLO-v1</th>
             <th>MANet-T</th>
-            <th>6.17</th>
-          <th>9.7(TITAN RTX)</th>
-          <th>24.7</th>
+            <th>6.16</th>
+          <th>9.9(TITAN RTX)</th>
+          <th>24.1</th>
+        </tr>
+        <tr>
+            <th>CAT-YOLO-v2</th>
+            <th>MANet-T</th>
+            <th>9.17</th>
+          <th>12.7(TITAN RTX)</th>
+          <th>25.7</th>
         </tr>
 </table>
 
