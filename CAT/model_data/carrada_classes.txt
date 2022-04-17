@@ -1,0 +1,3 @@
+pedestrian
+cyclist
+car
