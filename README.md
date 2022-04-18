@@ -146,3 +146,8 @@ Note: We are still preparing and organizing different files for users to read an
 3. The sub-folder named "Tiny Version" in [Modules](https://github.com/GuanRunwei/MAN-and-CAT/tree/main/MAN/Modules) play the role of the enhance module in the network's bottleneck.
 
 ### **CAT** includes the files of CAT-YOLO.
+
+<div align="center">
+  <img src="https://github.com/GuanRunwei/MAN-and-CAT/blob/main/CAT/save_img/example.jpg" alt="CAT-YOLO">
+ </div>
+
