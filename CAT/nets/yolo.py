@@ -58,7 +58,7 @@ def yolo_head(filters_list, in_filters):
 #   yolo_body
 # ---------------------------------------------------#
 class YoloBody(nn.Module):
-    def __init__(self, anchors_mask, num_classes, phi=0, pretrained=False):
+    def __init__(self, anchors_mask, num_classes, input_shape, phi=0, pretrained=False):
         super(YoloBody, self).__init__()
         self.phi = phi
         self.backbone = darknet53_tiny(pretrained)
@@ -75,9 +75,9 @@ class YoloBody(nn.Module):
             self.upsample_att = attention_block[self.phi - 1](128)
 
         elif self.phi == 4:
-            self.feat1_att = attention_block[self.phi - 1](256, [40, 40])
-            self.feat2_att = attention_block[self.phi - 1](512, [20, 20])
-            self.upsample_att = attention_block[self.phi - 1](128, [40, 40])
+            self.feat1_att = attention_block[self.phi - 1](256, [input_shape[0]//16, input_shape[1]//16])
+            self.feat2_att = attention_block[self.phi - 1](512, [input_shape[0]//32, input_shape[1]//32])
+            self.upsample_att = attention_block[self.phi - 1](128, [input_shape[0]//16, input_shape[1]//16])
 
     def forward(self, x):
         # ---------------------------------------------------#

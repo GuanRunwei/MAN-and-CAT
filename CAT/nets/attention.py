@@ -235,7 +235,7 @@ class ViTBlock(nn.Module):
 
 
 class GlobalAttention(nn.Module):
-    def __init__(self, channels, input_shape, patch_size=1, depth=2, num_heads=4, mlp_ratio=4.,
+    def __init__(self, channels, input_shape, patch_size=1, depth=1, num_heads=8, mlp_ratio=4.,
                  qkv_bias=True, drop_rate=0.1, attn_drop_rate=0.1, drop_path_rate=0.05,
                  norm_layer=partial(nn.LayerNorm, eps=1e-6), act_layer=GELU):
         super().__init__()
@@ -244,7 +244,6 @@ class GlobalAttention(nn.Module):
                                       num_features=channels)
         num_patches = (input_shape[0] // patch_size) * (input_shape[1] // patch_size)
         self.feature_shape = [int(input_shape[0] // patch_size), int(input_shape[1] // patch_size)]
-
         self.pos_embed = nn.Parameter(torch.zeros(1, num_patches, channels))
         self.pos_drop = nn.Dropout(p=drop_rate)
 
@@ -277,6 +276,8 @@ class GlobalAttention(nn.Module):
 
         # batch, height, width, channel -> B, N, C
         img_token_pe = img_token_pe.permute(0, 2, 3, 1).flatten(1, 2)
+        # print("x shape:", x.shape)
+        # print("img_token_pe shape:", img_token_pe.shape)
 
         x = self.pos_drop(x + img_token_pe)
         x = self.blocks(x)
