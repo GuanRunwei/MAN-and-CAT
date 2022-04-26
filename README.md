@@ -129,6 +129,13 @@ Note: We are still preparing and organizing different files for users to read an
           <th>12.7(TITAN RTX)</th>
           <th>25.7</th>
         </tr>
+        <tr>
+            <th>CAT-YOLO-v3</th>
+            <th>MANet-T</th>
+            <th>12.5</th>
+          <th>Still Training</th>
+          <th>Still Training</th>
+        </tr>
 </table>
 
 ***
