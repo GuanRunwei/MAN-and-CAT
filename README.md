@@ -26,7 +26,7 @@ Note: We are still preparing and organizing different files for users to read an
         <tr>
             <th>WRN-18 + Mix Attention</th>
             <th>27.11</th>
-            <th>4.87</th>
+            <th>4.77</th>
         </tr>
 </table>
     
