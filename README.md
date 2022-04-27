@@ -117,7 +117,7 @@ Note: We are still preparing and organizing different files for users to read an
         </tr>
         <tr>
             <th>CAT-YOLO-v1</th>
-            <th>MANet-T</th>
+            <th>CSPDarknet53-Tiny</th>
             <th>6.16</th>
           <th>9.9(TITAN RTX)</th>
           <th>24.1</th>
