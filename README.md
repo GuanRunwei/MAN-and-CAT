@@ -53,6 +53,31 @@ Note: We are still preparing and organizing different files for users to read an
 
 ***
 
+### MANet on ImageNet
+
+<table>
+        <tr>
+            <th>Model</th>
+            <th>Params(M)</th>
+            <th>Top-1 Accuracy(%)</th>
+        </tr>
+        <tr>
+            <th>MANet-B</th>
+            <th>69.3</th>
+            <th>81.7</th>
+        </tr>
+        <tr>
+            <th>MANet-S</th>
+            <th>23.4</th>
+            <th>78.3</th>
+        </tr>
+         <tr>
+            <th>MANet-T</th>
+            <th>4.3</th>
+            <th>73.1</th>
+        </tr>
+</table>
+
 ### MANet on CIFAR-10
 
 <table>
@@ -64,12 +89,12 @@ Note: We are still preparing and organizing different files for users to read an
         <tr>
             <th>MANet-B</th>
             <th>69.3</th>
-            <th>96.9</th>
+            <th>97.2</th>
         </tr>
         <tr>
             <th>MANet-S</th>
             <th>23.4</th>
-            <th>94.7</th>
+            <th>95.1</th>
         </tr>
          <tr>
             <th>MANet-T</th>
@@ -90,17 +115,17 @@ Note: We are still preparing and organizing different files for users to read an
         <tr>
             <th>MANet-B</th>
             <th>69.3</th>
-            <th>84.7</th>
+            <th>88.7</th>
         </tr>
         <tr>
             <th>MANet-S</th>
             <th>23.4</th>
-            <th>79.8</th>
+            <th>86.5</th>
         </tr>
          <tr>
             <th>MANet-T</th>
             <th>4.3</th>
-            <th>75.2</th>
+            <th>81.6</th>
         </tr>
 </table>
 
@@ -133,8 +158,8 @@ Note: We are still preparing and organizing different files for users to read an
             <th>CAT-YOLO-v3</th>
             <th>MANet-T</th>
             <th>12.5</th>
-          <th>Still Training</th>
-          <th>Still Training</th>
+          <th>11.8</th>
+          <th>33.5</th>
         </tr>
 </table>
 
