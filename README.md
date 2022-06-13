@@ -158,7 +158,7 @@ Note: We are still preparing and organizing different files for users to read an
             <th>CAT-YOLO-v3</th>
             <th>MANet-T</th>
             <th>12.5</th>
-          <th>11.8</th>
+          <th>11.8(TITAN RTX)</th>
           <th>33.5</th>
         </tr>
 </table>
