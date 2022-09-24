@@ -1,7 +1,5 @@
 # MAN and CAT: Mix Attention to NN and Concatenate Attention to YOLO
 
-Note: We are still preparing and organizing different files for users to read and debug easily, which would be completed before the end of 2022. 
-
 <div align="center">
   <p>===This is the official page of Mix Attention, MANet and CAT-YOLO===</p>
   <img src="https://github.com/GuanRunwei/MAN-and-CAT/blob/main/logo1.png" width=150 alt="CAT-YOLO">
@@ -182,4 +180,14 @@ Note: We are still preparing and organizing different files for users to read an
 <div align="center">
   <img src="https://github.com/GuanRunwei/MAN-and-CAT/blob/main/CAT/save_img/example.jpg" alt="CAT-YOLO">
  </div>
+ 
+ ## Citation
+      @article{guan2022man,
+      title={MAN and CAT: mix attention to nn and concatenate attention to YOLO},
+      author={Guan, Runwei and Man, Ka Lok and Zhao, Haocheng and Zhang, Ruixiao and Yao, Shanliang and Smith, Jeremy and Lim, Eng Gee and Yue, Yutao},
+      journal={The Journal of Supercomputing},
+      pages={1--29},
+      year={2022},
+      publisher={Springer}
+      }
 
